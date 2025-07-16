@@ -17,8 +17,10 @@ ids_amostras <- c("AM101", "AM102", "AM103", "AM104", "AM105")
 
 print("Tabela de Expressão Gênica:")
 print(expressoes_genicas)
+
 print("Vetor de Mutações Genômicas:")
 print(mutacoes_genomicas)
+
 print("Vetor de IDs de Amostras:")
 print(ids_amostras)
 
@@ -37,7 +39,7 @@ print(expressoes_genicas)
 # Calcular a diferença de expressão entre Amostra2 e Amostra1 para cada gene
 expressoes_genicas$Diferenca_A2_A1 <- expressoes_genicas$Amostra2 - expressoes_genicas$Amostra1
 print("Tabela de Expressão Gênica com Diferença A2-A1:")
-print(expressoes_geneicas)
+print(expressoes_genicas)
 
 # Se tivéssemos contagens de reads e quiséssemos calcular o total
 contagens_reads_geneA <- c(1000, 1500) # Contagens para GeneA em duas amostras
